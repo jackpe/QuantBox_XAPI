@@ -28,6 +28,7 @@
 1. 使用Mono Develop打开QuantBox\_XAPI\_CSharp\_Linux.sln进行编译，会生成
 > **QuantBox\.XAPI\.dll**:C#接口，由它进行C接口的加载
 
+
 2. 使用Code::Blocks打开QuantBox\_XAPI\_C\_Linux.workspace进行编译，注意得使用Clang编译器，会生成
 > **libQuantBox\_Queue.so**:C接口，消息队列，行情与交易的数据先进入队列然后，由内部的线程进行触发<br/>
 > **libQuantBox\_CTP\_Quote.so**:C接口,调用CTP的行情API<br/>
